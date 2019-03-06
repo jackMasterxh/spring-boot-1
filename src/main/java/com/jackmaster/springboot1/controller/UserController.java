@@ -1,6 +1,5 @@
 package com.jackmaster.springboot1.controller;
 
-import com.jackmaster.springboot1.entity.User;
 import com.jackmaster.springboot1.entity.UserTo;
 import com.jackmaster.springboot1.service.UserService;
 import org.springframework.web.bind.annotation.RequestMapping;
