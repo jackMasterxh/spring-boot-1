@@ -20,7 +20,7 @@ import java.util.List;
 public class UserController {
 
     @Resource
-    private UserService userService;
+    private UserService  userService;
 
     @RequestMapping(value = "/findUserList",method = RequestMethod.GET)
     public List<UserTo> findUserList(String userId){
